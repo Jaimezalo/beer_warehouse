@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="" />
+    <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/migrations/0002_company_tax_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +24,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bGahEi4R4sL7a3ouHCnWC0v62O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
@@ -50,7 +67,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="514" y="274" key="Github.ShareDialog" timestamp="1588272689623">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="514" y="274" key="Github.ShareDialog/0.27.1366.696@0.27.1366.696" timestamp="1588272689623" />
+    <state x="379" y="61" width="598" height="626" key="Github.UntrackedFilesDialog" timestamp="1588272699338">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="379" y="61" width="598" height="626" key="Github.UntrackedFilesDialog/0.27.1366.696@0.27.1366.696" timestamp="1588272699338" />
     <state x="172" y="27" width="1012" height="696" key="SettingsEditor" timestamp="1588262179541">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
