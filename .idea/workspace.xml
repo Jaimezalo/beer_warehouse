@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/migrations/0002_company_tax_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+    <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="Modificado el archivo models.py.">
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
@@ -65,12 +67,26 @@
       <option name="presentableId" value="Default" />
       <updated>1588261000638</updated>
     </task>
+    <task id="LOCAL-00001" summary="Modificado el archivo models.py.">
+      <created>1588354681146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588354681146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Modificado el archivo models.py." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificado el archivo models.py." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2" timestamp="1588354702800">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2/0.27.1366.696@0.27.1366.696" timestamp="1588354702800" />
     <state x="514" y="274" key="Github.ShareDialog" timestamp="1588272689623">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
@@ -83,5 +99,9 @@
       <screen x="0" y="27" width="1366" height="696" />
     </state>
     <state x="172" y="27" width="1012" height="696" key="SettingsEditor/0.27.1366.696@0.27.1366.696" timestamp="1588262179541" />
+    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588354730210">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.696@0.27.1366.696" timestamp="1588354730210" />
   </component>
 </project>
