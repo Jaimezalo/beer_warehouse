@@ -3,6 +3,13 @@
 
 
 {% block content %}
-    <h2>Detalles de la cerveza{{ beer }}</h2>
-    <p>{{ beer }}</p>
+    <h2>Detalles de la cerveza {{ beer_name }}</h2>
+
+    <ul class="list-group">
+        <li class="list-group-item">Nombre: {{ beer_name }}</li>
+        <li class="list-group-item">Alc: {{ beer_alc }} %</li>
+        <li class="list-group-item">Color: {{ beer_color }}</li>
+        <li class="list-group-item">Compañia: {{ beer_company }}</li>
+        <li class="list-group-item"> {{ beer_image }}</li>
+    </ul>
 {% endblock %}

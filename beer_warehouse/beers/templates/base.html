@@ -4,10 +4,12 @@
     <title>Proyecto Django</title>
     <link href="{% static 'node_modules/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/sticky-footer-navbar.css' %}" rel="stylesheet">
+    <link href="{% static 'css/login.css' %}" rel="stylesheet">
 </head>
 <body>
-    {% include 'navbar.html' %}
-
+    {% if request.user.is_authenticated%}
+        {% include 'navbar.html' %}
+    {% endif %}
     <main role="main" class="flex-shrink-0 mt-5">
     <div class="container">
         {% block content %}

@@ -4,5 +4,11 @@
 
 {% block content %}
     <h2>Listado de cervezas</h2>
-    <p>{{ beer_list }}</p>
+    <ul>
+    {% for beer in beer_list %}
+    <li>
+        <a href="{% url 'beer-detail-view' beer.pk%}">{{ beer }}</a>
+    </li>
+     {% endfor %}
+    </ul>
 {% endblock %}

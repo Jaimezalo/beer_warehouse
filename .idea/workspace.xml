@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="Modificado el archivo models.py.">
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" afterDir="false" />
+    <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/media/beer/images/None.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/views.py" afterDir="false" />
@@ -20,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,15 +51,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beer_warehouse/beers/templates/beers" />
       <recent name="$PROJECT_DIR$/beer_warehouse/beers/static/node_modules" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/beer_warehouse/beers/templates" />
       <recent name="$PROJECT_DIR$/beer_warehouse/beers/static" />
-      <recent name="$PROJECT_DIR$/beer_warehouse/beers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -74,19 +80,35 @@
       <option name="project" value="LOCAL" />
       <updated>1588354681146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modificado el archivo views.py">
+      <created>1588358499066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588358499066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Modificado el archivo models.py." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificado el archivo models.py." />
+    <MESSAGE value="Modificado el archivo views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificado el archivo views.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2" timestamp="1588354702800">
+    <state x="312" y="55" width="732" height="637" key="#Inspections" timestamp="1588360390349">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
-    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2/0.27.1366.696@0.27.1366.696" timestamp="1588354702800" />
+    <state x="312" y="55" width="732" height="637" key="#Inspections/0.27.1366.696@0.27.1366.696" timestamp="1588360390349" />
+    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2" timestamp="1588358498983">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2/0.27.1366.696@0.27.1366.696" timestamp="1588358498983" />
+    <state x="466" y="132" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588523692001">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="466" y="132" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.696@0.27.1366.696" timestamp="1588523692001" />
     <state x="514" y="274" key="Github.ShareDialog" timestamp="1588272689623">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
@@ -99,9 +121,9 @@
       <screen x="0" y="27" width="1366" height="696" />
     </state>
     <state x="172" y="27" width="1012" height="696" key="SettingsEditor/0.27.1366.696@0.27.1366.696" timestamp="1588262179541" />
-    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588354730210">
+    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588358502849">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
-    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.696@0.27.1366.696" timestamp="1588354730210" />
+    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.696@0.27.1366.696" timestamp="1588358502849" />
   </component>
 </project>
