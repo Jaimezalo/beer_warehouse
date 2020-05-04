@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'beers',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +68,7 @@ TEMPLATES = [
         },
     },
 ]
-
+CRISPY_ALLOWED_TEMPLATE_PACKS = ('bootstrap', 'uni_form', 'bootstrap3', 'bootstrap4', 'semantic-ui')
 WSGI_APPLICATION = 'beer_warehouse.wsgi.application'
 
 # Database

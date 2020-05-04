@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c7d397f-f2c8-4b7c-ad4a-aa159e361a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_warehouse/media/beer/images/None.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers/company_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers/company_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers/company_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beer_warehouse/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.details.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers/beer_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/templates/beer.list.html" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/templates/beers/beer_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/beers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/beers/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_warehouse/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/beer_warehouse/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +50,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/beer_warehouse/beers/templates/beers" />
-      <recent name="$PROJECT_DIR$/beer_warehouse/beers/static/node_modules" />
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/beer_warehouse/beers/templates" />
-      <recent name="$PROJECT_DIR$/beer_warehouse/beers/static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beer_warehouse/beers/templates/beers" />
+      <recent name="$PROJECT_DIR$/beer_warehouse/beers/templates/companies" />
+      <recent name="$PROJECT_DIR$/beer_warehouse/beers" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/beers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -87,24 +86,32 @@
       <option name="project" value="LOCAL" />
       <updated>1588358499066</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nuevos cambios. Incluido login.html">
+      <created>1588531120246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588531120246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Modificado el archivo models.py." />
     <MESSAGE value="Modificado el archivo views.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificado el archivo views.py" />
+    <MESSAGE value="Nuevos cambios. Incluido login.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevos cambios. Incluido login.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="55" width="732" height="637" key="#Inspections" timestamp="1588360390349">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
     <state x="312" y="55" width="732" height="637" key="#Inspections/0.27.1366.696@0.27.1366.696" timestamp="1588360390349" />
-    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2" timestamp="1588358498983">
+    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2" timestamp="1588531120128">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
-    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2/0.27.1366.696@0.27.1366.696" timestamp="1588358498983" />
+    <state x="222" y="27" width="912" height="696" key="CommitChangelistDialog2/0.27.1366.696@0.27.1366.696" timestamp="1588531120128" />
     <state x="466" y="132" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588523692001">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
@@ -121,9 +128,13 @@
       <screen x="0" y="27" width="1366" height="696" />
     </state>
     <state x="172" y="27" width="1012" height="696" key="SettingsEditor/0.27.1366.696@0.27.1366.696" timestamp="1588262179541" />
-    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588358502849">
+    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588531121856">
       <screen x="0" y="27" width="1366" height="696" />
     </state>
-    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.696@0.27.1366.696" timestamp="1588358502849" />
+    <state x="278" y="110" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.696@0.27.1366.696" timestamp="1588531121856" />
+    <state x="346" y="44" key="search.everywhere.popup" timestamp="1588605368411">
+      <screen x="0" y="27" width="1366" height="696" />
+    </state>
+    <state x="346" y="44" key="search.everywhere.popup/0.27.1366.696@0.27.1366.696" timestamp="1588605368411" />
   </component>
 </project>

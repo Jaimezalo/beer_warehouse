@@ -6,6 +6,7 @@ from django.db import models
 # Create your models here.
 from utils import image_upload_location
 
+
 class Company(models.Model):
     name = models.CharField('Name', max_length=50)
     tax_number = models.IntegerField('Tax number', unique=True)
@@ -18,6 +19,7 @@ class Company(models.Model):
     def __str__(self):
         return self.name
 
+
 class Beer(models.Model):
     COLOR_YELLOW = 1
     COLOR_AMBER = 2
@@ -25,10 +27,10 @@ class Beer(models.Model):
     COLOR_BLACK = 4
 
     COLOR_CHOICES = (
-        (COLOR_YELLOW , 'yellow'),
-        (COLOR_AMBER , 'amber'),
-        (COLOR_BRAWN , 'brawn'),
-        (COLOR_BLACK , 'black'),
+        (COLOR_YELLOW, 'yellow'),
+        (COLOR_AMBER, 'amber'),
+        (COLOR_BRAWN, 'brawn'),
+        (COLOR_BLACK, 'black'),
     )
 
     name = models.CharField('Name', max_length=50)
@@ -45,6 +47,7 @@ class Beer(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class SpecialIngredient(models.Model):
     name = models.CharField('Name', max_length=50)

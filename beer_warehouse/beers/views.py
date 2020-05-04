@@ -1,41 +1,61 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+from django import forms
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.forms import Form
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.urls import reverse_lazy
 from django.views import View
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView, UpdateView, CreateView
 
-from models import Beer
+from forms import CompanyForm
+from models import Beer, Company
 
 
-@login_required
-def beer_list_view(request):
-    context = {'beer_list': Beer.objects.all()}
-    return render(request, 'beer.list.html', context)
-
-class BeerListView(LoginRequiredMixin, ListView):
+class BeerListView(ListView):
     model = Beer
 
 
-@login_required
-def beer_detail_view(request, pk):
-    BEER = Beer.objects.get(pk=pk)
+class BeerDetailView(DetailView):
+    model = Beer
 
-    name = BEER.name
-    alc = BEER.alc
-    color = BEER.color
-    company = BEER.company
-    image = BEER.image
-    context = {
-        'beer_name': name,
-        'beer_alc': alc,
-        'beer_color': color,
-        'beer_company': company,
-        'beer_image': image,
 
-    }
+class CompanyListView(ListView):
+    model = Company
 
-    return render(request, 'beer.details.html', context)
+
+# def company_edit_view(request, pk):
+#     company = get_object_or_404(Company, pk=pk)
+#
+#     if request.method == 'GET':
+#         form = CompanyForm(instance=company)
+#     else:
+#         form = CompanyForm(request.POST, instance=company)
+#         if form.is_valid():
+#             form.save()
+#
+#     context = {
+#         'company': company,
+#         'form': form
+#     }
+#
+#     return render(request, 'company/company_form.html', context)
+
+
+class CompanyUpdateView(UpdateView):
+    model = Company
+    form_class = CompanyForm
+    success_url = reverse_lazy('company-list-view')
+
+
+class CompanyCreateView(CreateView):
+    model = Company
+    form_class = CompanyForm
+    success_url = reverse_lazy('company-list-view')
+
+
+class CompanyDetailView(DetailView):
+    model = Company
