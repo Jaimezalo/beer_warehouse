@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <h2>Destinos</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Editar</th>
+    </tr>
+    </thead>
+  <tbody>
+    <tr>
+    {% for beer in beer_list %}
+      <th scope="row"><a href="{% url 'destino-detail-view' destino.pk%}">{{ destino }}</a></th>
+        <td><a href="{% url 'destino-edit-view' destino.pk %}"><button type="button">Editar</button></a></td>
+    </tr>
+     {% endfor %}
+
+{% endblock %}

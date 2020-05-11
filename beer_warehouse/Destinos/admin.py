@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 from django.contrib import admin
 
 # Register your models here.
-from models import Beer, Company
+from models import Destino
 
-admin.site.register(Beer)
-admin.site.register(Company)
+admin.site.register(Destino)
