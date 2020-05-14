@@ -11,4 +11,4 @@ class DestinoForm(forms.ModelForm):
     class Meta:
         model = Destino
         fields = ['nombre', 'compania', 'tipo', 'afluencia',
-                  'precio', 'tipoTurismo', 'descripcion', 'coordenadas', 'link']
+                  'precio', 'tipoTurismo', 'descripcion', 'coordenadas', 'description', 'link']

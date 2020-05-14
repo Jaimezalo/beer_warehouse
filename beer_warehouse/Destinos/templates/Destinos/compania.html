@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <h2>¿Con quién iniciarás tu aventura?</h2>
+
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col-sm"></div>
+	        <div class="col-sm">
+				<a class="nav-link" href="{% url 'afluencia' amigos %}">
+		        <img src="{% static 'imagenes/amigos.jpg' %}" alt="Amigos" class="rounded img-fluid"/>
+				</a>
+			</div>
+	        <div class="col-sm">
+		        <img src="{% static 'imagenes/pareja.jpg' %}" class="rounded img-fluid" alt="Pareja"/>
+	        </div>
+	        <div class="col-sm"></div>
+        </div>
+        <div class="row mt-1">
+            <div class="col-sm"></div>
+	        <div class="col-sm">
+	            <img src="{% static 'imagenes/solo.jpg' %}" class="rounded img-fluid" alt="Solo"/>
+	        </div>
+	        <div class="col-sm">
+	            <img src="{% static 'imagenes/familia.png' %}" class="rounded img-fluid" alt="Familia"/>
+	        </div>
+	        <div class="col-sm"></div>
+        </div>
+    </div>
+
+{% endblock %}
